@@ -4,7 +4,7 @@ Dockerfile
 .dockerignore
 .git
 .gitignore
-.env
+# .env // for minikube
 dist
 build
 *.log
