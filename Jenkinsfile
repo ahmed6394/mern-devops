@@ -43,7 +43,7 @@ EOF
             steps {
                 sh '''
                     echo "Starting MERN app with Docker Compose..."
-                    docker compose up -d
+                    docker compose up -d --no-build
                     
                     echo "Showing Docker containers..."
                     docker ps
